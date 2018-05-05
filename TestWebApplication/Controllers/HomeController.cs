@@ -31,11 +31,11 @@ namespace TestWebApplication.Controllers
                     int count = 0;
                     foreach (var sentence in sentences)
                     {
-                        string[] words = sentence.Split(' ');
+                        string[] words = sentence.Split(' ',',','\n');
 
                         foreach (var word in words)
                         {
-                            if (word == searchString)
+                            if (word.ToLower() == searchString.ToLower())
                             {
                                 count++;
                             }
