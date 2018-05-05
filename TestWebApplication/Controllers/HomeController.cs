@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using TestDataAccess;
+using System.Text;
 
 namespace TestWebApplication.Controllers
 {
@@ -24,7 +25,7 @@ namespace TestWebApplication.Controllers
 
             if (file != null && file.ContentLength > 0)
             {
-                using (StreamReader reader = new StreamReader(file.InputStream))
+                using (StreamReader reader = new StreamReader(file.InputStream, Encoding.Default))
                 {
                     string text = reader.ReadToEnd();
                     string[] sentences = text.Split('.');
