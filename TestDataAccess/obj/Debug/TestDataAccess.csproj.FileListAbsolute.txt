@@ -1,0 +1,14 @@
+C:\Users\korak\source\repos\TestWebApplication\TestDataAccess\bin\Debug\TestDataAccess.dll.config
+C:\Users\korak\source\repos\TestWebApplication\TestDataAccess\bin\Debug\TestDataAccess.dll
+C:\Users\korak\source\repos\TestWebApplication\TestDataAccess\bin\Debug\TestDataAccess.pdb
+C:\Users\korak\source\repos\TestWebApplication\TestDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\korak\source\repos\TestWebApplication\TestDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\korak\source\repos\TestWebApplication\TestDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\korak\source\repos\TestWebApplication\TestDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\korak\source\repos\TestWebApplication\TestDataAccess\obj\Debug\TestDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\korak\source\repos\TestWebApplication\TestDataAccess\obj\Debug\TestDataAccess.csproj.CopyComplete
+C:\Users\korak\source\repos\TestWebApplication\TestDataAccess\obj\Debug\TestDataAccess.dll
+C:\Users\korak\source\repos\TestWebApplication\TestDataAccess\obj\Debug\TestDataAccess.pdb
+C:\Users\korak\source\repos\TestWebApplication\TestDataAccess\obj\Debug\TestDataAccess.Migrations.Initial.resources
+C:\Users\korak\source\repos\TestWebApplication\TestDataAccess\obj\Debug\TestDataAccess.csproj.GenerateResource.cache
+C:\Users\korak\source\repos\TestWebApplication\TestDataAccess\obj\Debug\TestDataAccess.csprojResolveAssemblyReference.cache

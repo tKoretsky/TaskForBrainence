@@ -1,0 +1,24 @@
+﻿@model IEnumerable<TestDataAccess.SentenceEntity>
+@{
+    ViewBag.Title = "Index";
+}
+
+
+@using (Html.BeginForm("Index", "TextParser", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <br />
+    <input type="file" name="file" />
+    <br />
+    <input name="searchString" placeholder="Пошук..." />
+    <input type="submit" value="OK" />
+}
+<table class="table">
+    <tr><td>Sentence</td><td>Count</td></tr>
+    @foreach (var item in Model)
+    {
+        <tr><td>@item.ReversedSentence</td><td>@item.Count</td></tr>
+    }
+</table>
+
+
+
